@@ -5,9 +5,6 @@
   --color-brand-dark: #465929;
   --color-brand-normal: #819b57;
   --color-brand-light:#cfcfbc;
-
-  
- 
   
 }
 
@@ -260,10 +257,10 @@ gap:40px;
   fill: var(--color-primary-light);
 }
 .carousel-button:hover .carousel-arrow{
-  background-color: var(--color-primary-light);
+  background-color: var(--color-primary-dark);
 }
 .carousel-arrow{
-  fill:var(--color-primary-dark);
+  fill:var(--color-primary-light);
   
 }
 /*Contacts*/
