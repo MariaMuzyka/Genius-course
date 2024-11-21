@@ -246,23 +246,17 @@ gap:40px;
   width: 44px;
   height:44px;
   padding: 0;
+  fill: var(--color-primary-dark);
   border-radius: 50%;
   background-color: transparent;
   border: 1px solid var(--color-primary-dark);
   cursor:pointer;
-
 }
 .carousel-button:hover{
   background-color: var(--color-primary-dark);
   fill: var(--color-primary-light);
 }
-.carousel-button:hover .carousel-arrow{
-  background-color: var(--color-primary-dark);
-}
-.carousel-arrow{
-  fill:var(--color-primary-light);
-  
-}
+
 /*Contacts*/
 .contact-title{
 margin-bottom: 16px;
