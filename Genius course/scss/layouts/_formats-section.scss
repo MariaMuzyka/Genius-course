@@ -1,0 +1,11 @@
+.formats-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.formats-list {
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+  flex-wrap: wrap;
+}
