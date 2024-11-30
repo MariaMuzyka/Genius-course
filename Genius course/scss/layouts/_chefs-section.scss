@@ -1,26 +1,29 @@
-.chefs-title {
-  margin: 0 auto 80px;
-  position: relative;
-}
-.chefs-title::before,
-.chefs-title::after {
-  position: absolute;
-  bottom: 24px;
-  width: 352px;
-  border: 2px solid var(--color-brand-light);
-  content: '';
-}
-.chefs-title::before {
-  left: 0px;
-}
-.chefs-title::after {
-  right: 0px;
-}
-.chefs-list {
-  display: flex;
-  gap: 40px 30px;
-  flex-wrap: wrap;
-}
-.chefs-item {
-  flex-basis: calc((100% - 30px) / 2);
+.chefs-section {
+  &__title {
+    margin: 0 auto 80px;
+    position: relative;
+  }
+  &__::before,
+  &__::after {
+    position: absolute;
+    bottom: 24px;
+    width: 352px;
+    border: 2px solid var(--color-brand-light);
+    content: '';
+  }
+  &__::before {
+    left: 0px;
+  }
+  &__::after {
+    right: 0px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px 30px;
+    flex-wrap: wrap;
+  }
+  &__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
 }

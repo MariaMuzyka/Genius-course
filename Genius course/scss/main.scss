@@ -1,8 +1,10 @@
 @import './utils/variables';
 @import './base';
+@import './utils/fonts';
 @import './utils/utils';
-
+@import './utils/texts';
 @import './components/buttons';
+@import './components/input';
 @import './layouts/header';
 @import './layouts/hero-section';
 @import './components/links';
@@ -28,4 +30,4 @@
 @import'./layouts/footer';
 @import'./layouts/modal';
 
-@import'./layouts/forms';
+@import'./layouts/form-terms';
